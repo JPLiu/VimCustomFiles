@@ -1,3 +1,3 @@
-# Vim-Syntax
+# Vim-Syntax-Files
 
-My Personal Vim Syntax file for txt and other filetype.
+Personal Vim Syntax files for txt and other filetype.
