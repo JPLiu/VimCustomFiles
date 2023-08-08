@@ -66,14 +66,14 @@ syn match   txtReference '^[|>:]\(\s*[|>:]\)*'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "hi txtUrl        term=bold        cterm=bold  ctermfg=blue    gui=underline     guifg=blue
 "hi txtTitle     term=bold       cterm=bold      ctermfg=black   gui=bold        guifg=black
-hi link txtUrl          Underlined"ModeMsg"Tabline"PmenuSbar
-hi link txtTitle        Title"ModeMsg"Tabline"PmenuSbar
-hi link txtList         SignColumn"Pmenu"DiffText"Statement
+hi link txtUrl          Underlined"ModeMsg"Tabline
+hi link txtTitle        Title"ModeMsg"Tabline
+hi link txtList         SignColumn"DiffText"Statement
 hi link txtComment      Comment
-hi link txtReference    DiffAdd "Comment
-hi link txtQuotes       MoreMsg"String
-hi link txtParentesis   Special "Comment
-hi link txtBrackets     Special
+hi link txtReference    DiffAdd"Comment
+hi link txtQuotes       String
+hi link txtParentesis   MoreMsg"Comment
+hi link txtBrackets     Todo
 hi link txtError        ErrorMsg
 hi link txtTodo         Todo
 hi link txtEmailMsg     Structure
