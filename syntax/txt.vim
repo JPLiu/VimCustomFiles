@@ -67,7 +67,7 @@ syn match   txtReference '^[|>:]\(\s*[|>:]\)*'
 "hi txtUrl        term=bold        cterm=bold  ctermfg=blue    gui=underline     guifg=blue
 "hi txtTitle     term=bold       cterm=bold      ctermfg=black   gui=bold        guifg=black
 hi link txtUrl          Underlined"ModeMsg"Tabline
-hi link txtTitle        Title"ModeMsg"Tabline
+hi link txtTitle        Tag"ModeMsg"Tabline
 hi link txtList         SignColumn"DiffText"Statement
 hi link txtComment      Comment
 hi link txtReference    DiffAdd"Comment
