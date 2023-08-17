@@ -1,6 +1,5 @@
 syntax case ignore
 
-" 补充 adb css 规则
 syntax match  AdbRessourceRule  "\$.*$"
 syntax match  AdbCssSelector  "##.*$"
 syntax match  AdbCommentUrl  "http\S*"
