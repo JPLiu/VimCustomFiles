@@ -56,6 +56,9 @@ syn match txtEmailMsg '^\s*\(From\|De\|Sent\|To\|Para\|Date\|Data\|Assunto\|Subj
 "reference from reply email, quotes, etc.
 syn match   txtReference '^[|>:]\(\s*[|>:]\)*'
 
+" 补充 adb css 规则
+syn match   txtQuotes "##[^,]*$"
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "类html文本
 "syn match   txtBold       '\*[^*[:blank:]].\{-}\*'hs=s+1,he=e-1
@@ -73,7 +76,7 @@ hi link txtComment      Comment
 hi link txtReference    DiffAdd"Comment
 hi link txtQuotes       String
 hi link txtParentesis   MoreMsg"Comment
-hi link txtBrackets     Todo
+hi link txtBrackets     String
 hi link txtError        ErrorMsg
 hi link txtTodo         Todo
 hi link txtEmailMsg     Structure
