@@ -15,6 +15,7 @@ highlight link AdbRessourceRule Structure
 
 
 syntax match ClashDomain '^DOMAIN.*,'me=e-1
-syntax match ClashComment '^#.*$'
+syntax match ClashComment '^# .*$'
+syntax match ClashComment '^#--.*$'
 highlight link ClashComment Comment
 highlight link ClashDomain Keyword
