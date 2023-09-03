@@ -3,6 +3,9 @@ syntax case ignore
 syntax match ListComment '^# .*$'
 highlight link ListComment Comment
 
+syntax match ListBrackets '(.*)'
+highlight link ListBrackets String
+
 " Adblock Rule Syntax
 syntax match  AdbRessourceRule  "\$.*$"
 syntax match  AdbCssSelector  "##.*$"
