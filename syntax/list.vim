@@ -1,5 +1,6 @@
 syntax case ignore
 
+" Adblock Rule Syntax
 syntax match  AdbRessourceRule  "\$.*$"
 syntax match  AdbCssSelector  "##.*$"
 syntax match  AdbCommentUrl  "http\S*"
@@ -13,9 +14,10 @@ highlight link AdbComment Comment
 highlight link AdbCommentUrl Tabline
 highlight link AdbRessourceRule Structure
 
-
+" Clash Rule Syntax
 syntax match ClashDomain '^DOMAIN.*,'me=e-1
 syntax match ClashComment '^# .*$'
 syntax match ClashComment '^#--.*$'
+
 highlight link ClashComment Comment
 highlight link ClashDomain Keyword
