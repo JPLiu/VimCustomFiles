@@ -6,9 +6,8 @@ highlight link ListComment Comment
 " Adblock Rule Syntax
 syntax match  AdbRessourceRule  "\$.*$"
 syntax match  AdbCssSelector  "##.*$"
-syntax match  AdbCommentUrl  "http\S*"
 syntax match  AdbComment  "^!.*$"
-syntax match  AdbComment  "^\[.*\]$" contains=AdbCommentUrl
+syntax match  AdbComment  "^\[.*\]$"
 syntax match  Adbif  "^#if.*$"
 
 highlight link AdbIf Todo
