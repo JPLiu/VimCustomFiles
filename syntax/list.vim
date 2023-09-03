@@ -1,5 +1,8 @@
 syntax case ignore
 
+syntax match ListComment '^# .*$'
+highlight link ListComment Comment
+
 " Adblock Rule Syntax
 syntax match  AdbRessourceRule  "\$.*$"
 syntax match  AdbCssSelector  "##.*$"
@@ -16,7 +19,6 @@ highlight link AdbRessourceRule Structure
 
 " Clash Rule Syntax
 syntax match ClashDomain '^DOMAIN.*,'me=e-1
-syntax match ClashComment '^# .*$'
 syntax match ClashComment '^#--.*$'
 
 highlight link ClashComment Comment
