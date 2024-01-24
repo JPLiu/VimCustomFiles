@@ -1,3 +1,5 @@
+vim9script
+
 syntax case ignore
 
 syntax match ListComment '^# .*$'
