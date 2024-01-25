@@ -8,7 +8,7 @@ highlight link ListComment Comment
 syntax match ListBrackets '(.*)'
 highlight link ListBrackets String
 
-" Adblock Rule Syntax
+# Adblock Rule Syntax
 syntax match  AdbRessourceRule  "\$.*$"
 syntax match  AdbCssSelector  "##.*$"
 syntax match  AdbComment  "^!.*$"
@@ -21,7 +21,7 @@ highlight link AdbComment Comment
 highlight link AdbCommentUrl Tabline
 highlight link AdbRessourceRule Structure
 
-" Clash Rule Syntax
+# Clash Rule Syntax
 syntax match ClashDomain '^DOMAIN.*,'me=e-1
 syntax match ClashComment '^#--.*$'
 
