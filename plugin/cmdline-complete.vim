@@ -1,6 +1,6 @@
 vim9script noclear
 
-# cmdline-complete 的 vim9script 修改版。
+# cmdline-complete 的 vim9script 自用修改版。
 
 # 防止重复加载（通过检查函数是否存在）
 if exists('*CmdlineComplete')
